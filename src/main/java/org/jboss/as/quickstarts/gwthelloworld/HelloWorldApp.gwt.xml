@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.6//EN"
+   "http://google-web-toolkit.googlecode.com/svn/releases/1.6/distro-source/core/src/gwt-module.dtd">
+<module rename-to="HelloWorldApp">
+    <inherits name="com.google.gwt.user.User"/>
+    <inherits name="com.google.gwt.http.HTTP"/>
+    <inherits name="com.google.gwt.json.JSON"/>
+    <inherits name="com.google.gwt.logging.Logging"/>
+    <entry-point class="org.jboss.as.quickstarts.gwthelloworld.client.local.HelloWorldApp"/>
+    
+</module>
